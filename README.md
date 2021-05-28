@@ -1,8 +1,7 @@
-# We;come to my personal github account
 
 ```shell
-root@zxce3 ~> cat /home/memet/readme.md
-Load content . . .
+Hi Mett!
+root@zxce3 ~> cat /home/memet/readme.json
 ```
 ```json
 {
