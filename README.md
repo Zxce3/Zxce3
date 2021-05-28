@@ -24,3 +24,8 @@ root@zxce3 ~> cat /home/memet/readme.json
   "updated_at": "2021-05-28T10:14:29Z"
 }
 ```
+> I'm an Indonesian based junior front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+
+### Link
+- [Blog](https://zxce3.blogspot.com)
+- [Portfolio](https://zxce3-projek.web.app)
