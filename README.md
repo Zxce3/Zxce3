@@ -6,7 +6,6 @@ Load content . . .
 ```
 ```json
 {
-  "avatar_url": "https://avatars.githubusercontent.com/u/57337800?v=4",
   "html_url": "https://github.com/Zxce3",
   "type": "User",
   "name": "Zxce3",
