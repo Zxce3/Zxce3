@@ -1,6 +1,6 @@
 
 ```shell
-Hi Mett!
+Hi There!
 root@zxce3 ~> cat /home/memet/readme.json
 ```
 ```json
