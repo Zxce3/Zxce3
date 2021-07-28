@@ -6,7 +6,7 @@ root@zxce3 ~> cat /home/memet/readme.json
 
 <details>
   <summary>
-    View
+    &#128214; <b>View readme.json</b>
   </summary>
   
 ```json
@@ -37,8 +37,7 @@ root@zxce3 ~> cat /home/memet/usage-tools.json
 ```
 
 <details>
-  <summary>
-    View
+  <summary>&#9881; <b>View Tools</b>
   </summary>
 
 ```json
