@@ -3,6 +3,12 @@
 Hi There!
 root@zxce3 ~> cat /home/memet/readme.json
 ```
+
+<details>
+  <summary>
+    View
+  </summary>
+  
 ```json
 {
   "html_url": "https://github.com/Zxce3",
@@ -24,7 +30,38 @@ root@zxce3 ~> cat /home/memet/readme.json
   "updated_at": "2021-05-28T10:14:29Z"
 }
 ```
-> I'm an Indonesian based junior front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+  </details>
+  
+```shell
+root@zxce3 ~> cat /home/memet/usage-tools.json
+```
+
+<details>
+  <summary>
+    View
+  </summary>
+
+```json
+
+{
+  "OS": "Linux",
+  "DISTRO" : [
+    "Ubuntu", "20.04",
+    "Android", "6.0/11",
+    "Kali", "2020.02",
+    "Mint", "20.2 UMA"
+    ],
+  "IDE": [
+    "Sublime Text",
+    "Atom",
+    "Vscodium",
+    "Nano"
+    ]
+}
+
+```
+  </details>
+  
 <details>
     <summary>&#127942 <b>GitHub Awards</b></summary><br/>
 
