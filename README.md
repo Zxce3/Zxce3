@@ -54,7 +54,8 @@ root@zxce3 ~> cat /home/memet/usage-tools.json
     "Sublime Text",
     "Atom",
     "Vscodium",
-    "Nano"
+    "Nano",
+    "Micro"
     ]
 }
 
