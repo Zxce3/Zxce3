@@ -8,3 +8,6 @@ Hi There
 - [Apa itu Pentester?](https://zxce3.blogspot.com/2021/07/apa-itu-pentester.html)
 - [Pengertian Deepweb](https://zxce3.blogspot.com/2020/02/pengertian-deebweb.html)
 <!-- BLOG-POST-LIST:END -->
+
+## Metrics
+![Metrics](https://metrics.lecoq.io/zxce3)
