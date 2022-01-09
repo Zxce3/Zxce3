@@ -2,7 +2,7 @@ name: telegram Notify
 
 on:
   push:
-    branches: [ master ]  
+    branches: [ main ]  
   release:    
     types:
       - published    
