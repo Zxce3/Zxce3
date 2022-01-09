@@ -9,5 +9,7 @@ Hi There
 - [Command Injection](https://payloadsallthethings.web.app/Command-Injection/)
 <!-- BLOG-POST-LIST:END -->
 
+## Counter
+![](https://komarev.com/ghpvc/?username=zxce3)
 ## Metrics
 ![Metrics](https://metrics.lecoq.io/zxce3)
