@@ -14,7 +14,7 @@ Hi There
 
 ## Activity
 <!--START_SECTION:activity-->
-
 <!--END_SECTION:activity-->
+
 ## Metrics
 ![Metrics](https://metrics.lecoq.io/zxce3)
