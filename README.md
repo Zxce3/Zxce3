@@ -11,6 +11,7 @@ Hi There
 
 ## Counter
 ![](https://komarev.com/ghpvc/?username=zxce3)
-
+<!--
 ## Metrics
 ![Metrics](https://metrics.lecoq.io/zxce3)
+-->
