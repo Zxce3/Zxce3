@@ -35,8 +35,8 @@ All this icons is taken from [devicon](https://devicon.dev/)
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/composer-logo.svg">|composer|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/composer-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/confluence-logo.svg">|confluence|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/couchdb-logo.svg">|couchdb|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/couchdb-logo.svg)|
-|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/cplusplus-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
-|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/crystal-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
+|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/cplusplus-logo.svg">|cplusplus|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/cplusplus-logo.svg)|
+|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/crystal-logo.svg">|crystal|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/crystal-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/csharp-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/css3-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/d3js-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
