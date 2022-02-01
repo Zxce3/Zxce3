@@ -2,11 +2,11 @@ Hi There
 
 ## Blog
 <!-- BLOG-POST-LIST:START -->
+- [XSS Injection](https://payloadsallthethings.web.app/XSS-Injection/)
+- [XSS with Relative Path Overwrite - IE 8/9 and lower](https://payloadsallthethings.web.app/XSS-with-Relative-Path-Overwrite/)
+- [XSS in Angular and AngularJS](https://payloadsallthethings.web.app/XSS-in-Angular/)
 - [PostgreSQL Injection](https://payloadsallthethings.web.app/PostgreSQL-Injection/)
 - [Oraclesql injection](https://payloadsallthethings.web.app/OracleSQL-Injection/)
-- [Mssql injection](https://payloadsallthethings.web.app/MSSQL-Injection/)
-- [Hql injection](https://payloadsallthethings.web.app/HQL-Injection/)
-- [Command Injection](https://payloadsallthethings.web.app/Command-Injection/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Counter
