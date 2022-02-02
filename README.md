@@ -12,6 +12,10 @@ Hi There
 ## Counter
 ![](https://komarev.com/ghpvc/?username=zxce3)
 [![wakatime](https://wakatime.com/badge/user/49998b1b-96c0-492e-9a08-f90fdef57239.svg)](https://wakatime.com/@49998b1b-96c0-492e-9a08-f90fdef57239)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <!--
 ## Metrics
 ![Metrics](https://metrics.lecoq.io/zxce3)
