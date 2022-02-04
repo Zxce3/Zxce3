@@ -15,7 +15,7 @@ jobs:
 
           # Options
           user: zxce3
-          template: terminal
+          template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
           plugin_introduction: yes
