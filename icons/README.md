@@ -48,9 +48,9 @@ All this icons is taken from [devicon](https://devicon.dev/)
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/django-logo.svg">|django|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/django-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/docker-logo.svg">|docker|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/docker-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/doctrine-logo.svg">|doctrine|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/doctrine-logo.svg)|
-|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dotnetcore-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
-|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dot-net-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
-|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/drupal-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
+|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dotnetcore-logo.svg">|dotnetcore|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dotnetcore-logo.svg)|
+|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dot-net-logo.svg">|dot-net|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/dot-net-logo.svg)|
+|<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/drupal-logo.svg">|drupal|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/drupal-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/electron-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/eleventy-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
 |<img alt="logo" style="width: 50px;height: auto;" src="https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/elixir-logo.svg">|Name|[here](https://cdn.jsdelivr.net/gh/zxce3/zxce3/icons/-logo.svg)|
