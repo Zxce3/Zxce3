@@ -33,10 +33,10 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime: yes
-          plugin_wakatime_days: 7
-          plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com/
-          plugin_wakatime_user: current
+#           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+#           plugin_wakatime: yes
+#           plugin_wakatime_days: 7
+#           plugin_wakatime_limit: 5
+#           plugin_wakatime_sections: time, projects-graphs, languages, languages-graphs, editors, os
+#           plugin_wakatime_url: https://wakatime.com/
+#           plugin_wakatime_user: current
