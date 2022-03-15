@@ -1,6 +1,5 @@
 Hi There 
 
-This is my 
 ## Counter
 ![](https://komarev.com/ghpvc/?username=zxce3)
 
