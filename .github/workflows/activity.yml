@@ -17,7 +17,6 @@ jobs:
           user: zxce3
           template: classic
           config_octicon: yes
-          config_display: columns
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
           plugin_followup: yes
