@@ -9,6 +9,10 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
       - name: 🦑 Achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -16,8 +20,7 @@ jobs:
           filename: images/achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          output_action: none
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_fortune: yes
@@ -31,8 +34,7 @@ jobs:
           base: header
           base_indepth: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
-          output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          output_action: none
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
@@ -52,3 +54,23 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
+
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@latest
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+          
+      - name: Checkout
+        uses: lowlighter/metrics@latest
+        run: |
+          set +e
+          git checkout metrics-renders
+          git config user.name memet-zx[bot]
+          git config user.email memetpea25@gmail.com
+          sudo mv /metrics_renders/* ./images/
+          git add --all
+          git commit -m "chore: push metrics"
+          git push
