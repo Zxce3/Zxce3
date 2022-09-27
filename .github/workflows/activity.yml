@@ -35,7 +35,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           base_indepth: yes
-          config_order: base.header, activity, isocalendar, repositories, languages, community, notable, discussions, topics
+          config_order: base.header, base.activity, isocalendar, base.repositories, languages, base.community, notable, discussions, topics
           config_timezone: Asia/Jakarta
           output_action: none
           output_condition: data-changed
@@ -72,7 +72,7 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
 
-      - name: Move file to images
+      - name: Push to github
         run: |
           set +e
           git checkout metrics-renders
@@ -81,10 +81,4 @@ jobs:
           sudo mv -f /metrics_renders/images/* ./images
           git add --all
           git commit -sm "chore: push metrics"
-
-      - name: GitHub Push
-        uses: ad-m/github-push-action@master
-        with:
-          force: true
-          directory: "."
-          github_token: ${{ secrets.METRICS_TOKEN }}
+          git push
