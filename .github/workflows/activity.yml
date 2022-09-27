@@ -72,7 +72,7 @@ jobs:
           git checkout metrics-renders
           git config user.name memet-zx[bot]
           git config user.email memetpea25@gmail.com
-          sudo mv /metrics_renders/* ./images/
+          sudo mv /metrics_renders/* ./images
           git add --all
           git commit -sm "chore: push metrics"
 
