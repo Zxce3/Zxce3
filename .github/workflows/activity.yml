@@ -57,7 +57,7 @@ jobs:
           plugin_discussions: yes
 
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@latest
+        uses: crazy-max/ghaction-import-gpg@v4
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
@@ -73,10 +73,10 @@ jobs:
           sudo mv /metrics_renders/* ./images/
           git add --all
           git commit -sm "chore: push metrics"
-          
+
       - name: GitHub Push
         uses: ad-m/github-push-action@master
         with:
           force: true
           directory: "."
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.METRICS_TOKEN }}
