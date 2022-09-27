@@ -13,7 +13,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: achievements.svg
+          filename: images/achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           output_action: gist
@@ -26,7 +26,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: general.svg
+          filename: images/general.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header
           base_indepth: yes
@@ -38,7 +38,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          # plugin_languages_ignored: css
+          plugin_languages_ignored: css
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
