@@ -1,2 +1,2 @@
-[<img align="center" width="100%" alt="🦑" src="images/general.svg">](#)
-[<img align="left" width="50%" alt="🦑" src="images/achievements.svg">](#)
+[<img align="left" width="490" alt="🦑" src="images/general.svg">](#)
+[<img align="left" width="390" alt="🦑" src="images/achievements.svg">](#)
