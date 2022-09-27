@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
           with:
             fetch-depth: 0
+
       - name: 🦑 Achievements
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -62,7 +63,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
-          
+
       - name: Checkout
         uses: lowlighter/metrics@latest
         run: |
