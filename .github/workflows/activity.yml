@@ -35,6 +35,8 @@ jobs:
           base: header
           base_indepth: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
+          config_display: columns
+          config_timezone: Asia/Jakarta
           output_action: none
           plugin_isocalendar: yes
           plugin_languages: yes
