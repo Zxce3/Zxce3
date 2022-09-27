@@ -127,7 +127,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 399k out of 98m users</span>
+                                    <span class="gh">ranked 399k out of 99m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">57</div>
                                     </div>
@@ -454,7 +454,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 375k out of 98m users</span>
+                                    <span class="gh">ranked 375k out of 99m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">25</div>
                                     </div>
@@ -867,7 +867,7 @@
                 <div class="row">
                     <section class="largeable-column-fields">
                         <div class="field" style="padding-left: 31px">
-                            <b style="color: #BAC200">Your fortune: Average Luck</b>
+                            <b style="color: #9D05DA">Your fortune: Very Bad Luck</b>
                         </div>
                     </section>
                 </div>
