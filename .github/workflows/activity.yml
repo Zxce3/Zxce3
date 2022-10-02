@@ -44,7 +44,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: images/follow.svg
+          filename: images/lang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           output_action: none
