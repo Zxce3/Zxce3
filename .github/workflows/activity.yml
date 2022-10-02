@@ -82,6 +82,12 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
+      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      - name: generate snake.svg
+        uses: Platane/snk@master
+        with:
+          github_user_name: Zxce3
+          svg_out_path: images/snake.svg
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v4
