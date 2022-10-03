@@ -4,7 +4,10 @@ on:
   schedule: [{cron: "0 16 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - main
+      - master
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -36,9 +39,11 @@ jobs:
           base: ""
           output_action: none
           output_condition: data-changed
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+          plugin_people_shuffle: yes
 
       - name: 🦑 Languages
         if: ${{ success() || failure() }}
@@ -50,6 +55,8 @@ jobs:
           output_action: none
           output_condition: data-changed
           plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_other: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
@@ -62,6 +69,20 @@ jobs:
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
+
+      - name: Code Snippets Day
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: images/codeotd.svg
+          base: ""
+          output_action: none
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
 
       - name: 🦑 General
         if: ${{ success() || failure() }}
@@ -82,6 +103,10 @@ jobs:
           plugin_topics_mode: icons
           plugin_notable: yes
           plugin_discussions: yes
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
+          
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate snake.svg
         uses: Platane/snk@master
