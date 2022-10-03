@@ -68,7 +68,6 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_details: lines, bytes-size, percentage
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_indepth: yes
 
       - name: Code Snippets Day
         if: ${{ success() || failure() }}
@@ -106,7 +105,7 @@ jobs:
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
-          
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate snake.svg
         uses: Platane/snk@master
