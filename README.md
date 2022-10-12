@@ -1,6 +1,36 @@
-<!-- [<img align="left" alt="🦑" src="images/general.svg">](#)
+<h1 align="center">Welcome</h1>
+
+
+<details>
+<summary>General</summary>
+
+[<img align="left" alt="🦑" src="images/general.svg">](#)
+
+</details>
+<details>
+<summary>Achievment</summary>
+
 [<img align="left" alt="🦑" src="images/achievements.svg">](#)
+
+</details>
+<details>
+<summary>Language</summary>
+
 [<img align="left" alt="🦑" src="images/lang.svg">](#)
+
+</details>
+<details>
+<summary>Follow</summary>
+
 [<img align="left" alt="🦑" src="images/follow.svg">](#)
-[<img align="left" alt="🦑" src="images/codeotd.svg">](#)-->
-[<img align="center" alt="🦑" src="images/snake.svg">](#)
+
+</details>
+<details>
+<summary>Code of the day</summary>
+
+[<img align="left" alt="🦑" src="images/codeotd.svg">](#)
+
+</details>
+
+[<img widht="100%" align="center" alt="🦑" src="images/snake.svg">](#)
+---
