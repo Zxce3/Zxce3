@@ -8,7 +8,7 @@
 
 </details>
 <details>
-<summary>Achievment</summary>
+<summary>Achievement</summary>
 
 [<img align="left" alt="🦑" src="images/achievements.svg">](#)
 
