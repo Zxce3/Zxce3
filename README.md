@@ -33,7 +33,7 @@ Hey There
 <!--  -->
 <!-- </details> -->
 <!--  -->
-<!-- [<img widht="100%" align="center" alt="🦑" src="images/snake.svg">](#) -->
+[<img widht="100%" align="center" alt="🦑" src="images/snake.svg">](#)
 <!-- --- -->
 <!--  -->
 <!-- ![Github activity graph](https://activity-graph.herokuapp.com/graph?username=zxce3&theme=xcode&area=true&hide_border=true) -->
