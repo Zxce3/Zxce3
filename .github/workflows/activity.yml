@@ -18,19 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🦑 Achievements
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: images/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          output_action: none
-          output_condition: data-changed
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
-
       - name: 🦑 Follow
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
@@ -46,28 +33,6 @@ jobs:
           plugin_people_types: followers, following
           plugin_people_shuffle: yes
 
-      - name: 🦑 Languages
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          filename: images/lang.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          output_action: none
-          output_condition: data-changed
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_ignored: css
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_threshold: 0%
-          plugin_languages_details: lines, bytes-size, percentage
-          plugin_languages_sections: most-used, recently-used
 
       - name: 🦑 Code Snippets Day
         if: ${{ success() || failure() }}
