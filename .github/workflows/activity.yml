@@ -113,20 +113,13 @@ jobs:
           github_user_name: Zxce3
           svg_out_path: images/snake.svg
 
-      - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v4
-        with:
-          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
-          passphrase: ${{ secrets.PASSPHRASE }}
-          git_user_signingkey: true
-          git_commit_gpgsign: true
 
       - name: Push to github
         run: |
           set +e
           git checkout metrics-renders
-          git config user.name memet-zx[bot]
-          git config user.email memetpea25@gmail.com
+          git config user.name "Mandakara Sadewa"
+          git config user.email mdswa@zxce3.net
           sudo mv -f /metrics_renders/images/* ./images
           git add --all
           git commit -sm "chore: push metrics"
