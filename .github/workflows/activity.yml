@@ -1,4 +1,8 @@
 name: Github Metrics
+
+permissions:
+  contents: write
+
 on:
   # Schedule updates (At 12:00 on every 2nd day-of-month from 1 through 30.)
   # https://crontab.guru/#0_12_1-30/2_*_*
@@ -14,9 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🦑 Follow
         if: ${{ success() || failure() }}
@@ -71,6 +76,43 @@ jobs:
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
 
+      - name: 🦑 GitHub Metrics
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: images/github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_timezone: Asia/Jakarta
+          output_action: none
+          output_condition: data-changed
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+      - name: 🦑 Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: images/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: achievements
+          config_timezone: Asia/Jakarta
+          output_action: none
+          output_condition: data-changed
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate snake.svg
         uses: Platane/snk@master
@@ -82,10 +124,14 @@ jobs:
       - name: Push to github
         run: |
           set +e
-          git checkout metrics-renders
+          # Create metrics-renders branch if it doesn't exist
+          git checkout metrics-renders 2>/dev/null || git checkout -b metrics-renders
           git config user.name "Mandakara Sadewa"
           git config user.email mdswa@zxce3.net
-          sudo mv -f /metrics_renders/images/* ./images
+          # Move generated metrics files to images directory
+          if [ -d "/metrics_renders/images" ]; then
+            sudo mv -f /metrics_renders/images/* ./images/
+          fi
           git add --all
-          git commit -sm "chore: push metrics"
-          git push
+          git commit -sm "chore: push metrics" || echo "No changes to commit"
+          git push origin metrics-renders
