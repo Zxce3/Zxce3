@@ -20,7 +20,6 @@ currently  : building web apps & tinkering with game dev
 studying   : Information Technology @ Amikom University
 loves      : SvelteKit, open source, Linux, pixel art games
 also does  : server management, UI/UX, hardware repair
-cdn        : ~200 dev icons self-hosted for 3 years (zxce3.net)
 ```
 
 ---
